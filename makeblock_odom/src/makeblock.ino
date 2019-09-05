@@ -85,8 +85,8 @@ const short RIGHT_MOTOR=1;
 
 //timers
 int t_new, t_old, t_old_comm, t_old_serial;
-int dT = 5000; //sampling time in microseconds
-int dT_serial = 10000; //sampling time for output in microseconds
+int dT = 10000; //sampling time in microseconds
+int dT_serial = 50000; //sampling time for output in microseconds
 
 //velocity filtering parameter
 float alpha = 0.05;
